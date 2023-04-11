@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Zurich V1">
+	<listeners>
+		<listener class-name="com.zurich.utilities.ReadListeners"/>
+	</listeners>
+  <test annotations="JDK" name="Zurich Test Framework">
+	  <classes>
+		   <class name="com.zurich.testcases.LoginTest"/>
+		   <class name="com.zurich.testcases.AdminTest"/>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
